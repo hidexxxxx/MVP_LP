@@ -1,0 +1,18 @@
+// vite.config.js
+import { defineConfig } from "file:///Users/hidetakayamamoto/Desktop/%E3%82%B5%E3%83%BC%E3%83%92%E3%82%99%E3%82%B9%E9%96%8B%E7%99%BA/Code/1_MVP/main/LP/node_modules/vite/dist/node/index.js";
+import laravel from "file:///Users/hidetakayamamoto/Desktop/%E3%82%B5%E3%83%BC%E3%83%92%E3%82%99%E3%82%B9%E9%96%8B%E7%99%BA/Code/1_MVP/main/LP/node_modules/laravel-vite-plugin/dist/index.js";
+var vite_config_default = defineConfig({
+  plugins: [
+    laravel({
+      input: [
+        "resources/css/app.css",
+        "resources/js/app.js"
+      ],
+      refresh: true
+    })
+  ]
+});
+export {
+  vite_config_default as default
+};
+//# sourceMappingURL=data:application/json;base64,ewogICJ2ZXJzaW9uIjogMywKICAic291cmNlcyI6IFsidml0ZS5jb25maWcuanMiXSwKICAic291cmNlc0NvbnRlbnQiOiBbImNvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9kaXJuYW1lID0gXCIvVXNlcnMvaGlkZXRha2F5YW1hbW90by9EZXNrdG9wL1x1MzBCNVx1MzBGQ1x1MzBEMlx1MzA5OVx1MzBCOVx1OTU4Qlx1NzY3QS9Db2RlLzFfTVZQL21haW4vTFBcIjtjb25zdCBfX3ZpdGVfaW5qZWN0ZWRfb3JpZ2luYWxfZmlsZW5hbWUgPSBcIi9Vc2Vycy9oaWRldGFrYXlhbWFtb3RvL0Rlc2t0b3AvXHUzMEI1XHUzMEZDXHUzMEQyXHUzMDk5XHUzMEI5XHU5NThCXHU3NjdBL0NvZGUvMV9NVlAvbWFpbi9MUC92aXRlLmNvbmZpZy5qc1wiO2NvbnN0IF9fdml0ZV9pbmplY3RlZF9vcmlnaW5hbF9pbXBvcnRfbWV0YV91cmwgPSBcImZpbGU6Ly8vVXNlcnMvaGlkZXRha2F5YW1hbW90by9EZXNrdG9wLyVFMyU4MiVCNSVFMyU4MyVCQyVFMyU4MyU5MiVFMyU4MiU5OSVFMyU4MiVCOSVFOSU5NiU4QiVFNyU5OSVCQS9Db2RlLzFfTVZQL21haW4vTFAvdml0ZS5jb25maWcuanNcIjtpbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJztcbmltcG9ydCBsYXJhdmVsIGZyb20gJ2xhcmF2ZWwtdml0ZS1wbHVnaW4nO1xuXG5leHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoe1xuICAgIHBsdWdpbnM6IFtcbiAgICAgICAgbGFyYXZlbCh7XG4gICAgICAgICAgICBpbnB1dDogW1xuICAgICAgICAgICAgICAgICdyZXNvdXJjZXMvY3NzL2FwcC5jc3MnLFxuICAgICAgICAgICAgICAgICdyZXNvdXJjZXMvanMvYXBwLmpzJyxcbiAgICAgICAgICAgIF0sXG4gICAgICAgICAgICByZWZyZXNoOiB0cnVlLFxuICAgICAgICB9KSxcbiAgICBdLFxufSk7XG4iXSwKICAibWFwcGluZ3MiOiAiO0FBQXdaLFNBQVMsb0JBQW9CO0FBQ3JiLE9BQU8sYUFBYTtBQUVwQixJQUFPLHNCQUFRLGFBQWE7QUFBQSxFQUN4QixTQUFTO0FBQUEsSUFDTCxRQUFRO0FBQUEsTUFDSixPQUFPO0FBQUEsUUFDSDtBQUFBLFFBQ0E7QUFBQSxNQUNKO0FBQUEsTUFDQSxTQUFTO0FBQUEsSUFDYixDQUFDO0FBQUEsRUFDTDtBQUNKLENBQUM7IiwKICAibmFtZXMiOiBbXQp9Cg==
